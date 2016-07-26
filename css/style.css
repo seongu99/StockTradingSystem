@@ -1,0 +1,41 @@
+body {
+  left: 0;
+  margin: 0;
+  overflow-y: scroll;
+  position: relative;
+}
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+#login-page{
+	text-align: center;
+	}
+#login-box{
+	border: #cfd5d8 .0625rem solid;
+    border-radius: 1.5rem;
+    padding: 1.8rem 1.4rem;
+    max-width: 30em;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 10%;
+}
+#login-title{
+	font-weight: bold;
+	font-size: 2em;
+	margin: 5%;
+}
+#login-id input{
+	border-radius: 0.5em;
+	width: 80%;
+	height: 5%;
+	margin: 2px;
+}
+#login-pw input{
+	border-radius: 0.5em;
+	width: 80%;
+	height: 5%;
+	margin: 2px;
+}
