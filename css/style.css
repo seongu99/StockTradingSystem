@@ -12,12 +12,12 @@ html {
 }
 #login-page{
 	text-align: center;
+	width: 100%;
 	}
 #login-box{
 	border: #cfd5d8 .0625rem solid;
     border-radius: 1.5rem;
     padding: 1.8rem 1.4rem;
-    max-width: 30em;
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 10%;
@@ -38,4 +38,13 @@ html {
 	width: 80%;
 	height: 5%;
 	margin: 2px;
+}
+#login-button button{
+	margin: 5px;
+	width: 80%;
+	height: 5%;
+	font-size: 1em;
+	border-radius: 0.5em;
+	background-color: skyblue;
+	border-color: skyblue;
 }
